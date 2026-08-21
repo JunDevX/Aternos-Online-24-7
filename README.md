@@ -18,11 +18,21 @@ The system periodically connects to the server, preventing automatic shutdown du
 - Modular structure and easy configuration  
 - CLI-based control for quick setup and monitoring  
 
-## Technologies Used
-- **Node.js** — main controller, scheduler, logging  
-- **Python** — automation routines, session/browser emulation  
-- **Puppeteer / Selenium** (optional depending on setup)  
-- **dotenv** for environment configuration  
+## Using
+```
+cd NodeJS
+npm install
+cd ..
+cd Python
+pip install -r requirements.txt
+python gui.py
+```
+**OR ONLY NODEJS**
+```
+cd NodeJS
+npm install
+node index.js <ip:port your aternos server> <nickname of bot> [password for register and login in server]
+```
 
 ## Installation
 ```bash
